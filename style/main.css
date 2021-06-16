@@ -20,6 +20,7 @@ body{
 
 .logoImg{
     border-radius: 100px;
+    width: 12%;
 }
 
 .logo{
@@ -27,9 +28,6 @@ body{
     align-items: center;
 }
 
-.logoTitle{
-    font-family: Roboto;
-}
 
 header .container{
     display: flex; /* Por padrao dispoe todo o conteudo em linha*/
@@ -42,6 +40,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 40px;
+    font-family: Roboto;
 }
 
 header nav a{
@@ -60,7 +59,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(212, 195, 195, 0.5), rgba(223, 207, 207, 0.5)), url('../img/World-Blood-Donor-Day.jpg');
 
-    height: 400px;
+    height: 550px;
     background-size: cover;
 
     display: flex;
@@ -69,54 +68,8 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.capa-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
 
-.capa-principal .titulo{
-    margin-top: 15px;
-    font-size: 40px;
-    font-family: 'Trebuchet MS';
-}
-
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border: none;
-    color: white;
-
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao:hover{
-    background-color: white;
-    color: black;
-}
-
-.botao i{
-    margin-right: 8px;
-}
-
-.container{
-    margin-left: 30px;
-}
-
-.filme-principal .container{
-    width: 70%;
-}
-
-.box-filme{
-    height: 50%;
-    width: 50%;
-    display: block;
-}
-
-.carrosel-filmes{
+.carrosel-donor{
     margin-top: 2px;
 
 }
@@ -125,7 +78,7 @@ header nav a:hover{
 background-color: #CBDBDC;
 }
 
-.topBD{
+.title-topBD{
     color: #CBDBDC;
     text-align: center;
     font-family: Roboto;
